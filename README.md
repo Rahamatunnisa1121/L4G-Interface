@@ -1,50 +1,7 @@
-# Razorpay Payment-Link Generator
-
-This project is a React-based web application that allows users to submit their details (name, email, and contact) and interact with an API to generate Razorpay payment links. It demonstrates the integration of APIs with React, form handling, and error management.
-
-Features:
---------
-User-friendly form to collect name, email, and contact details.
-Handles form submission using axios to send POST requests to a Razorpay API endpoint.
-Displays API responses directly in the UI, whether success or error.
-Implements a loading state with a dynamic submit button (Submitting... while loading).
-Comprehensive error handling for network and server-side issues.
-
-Tech Stack:
------------
-Frontend: React.js (with Hooks)
-HTTP Client: Axios
-
-How to Run:
------------
-1.Clone the repository:
-git clone https://github.com/Rahamatunnisa1121/L4G-Interface
-cd L4g_Interface
-
-2.Install dependencies:
-npm install
-
-3.Start the development server:
-npm start
-
-4.Fill out the form and test the functionality.
-
-API Endpoint:
-The application interacts with the following API endpoint: https://qhf89t91pj.execute-api.ap-south-1.amazonaws.com/V1/razorpay-payment-link-creation
-
-Project Structure:
-src/App.js: Contains the main component with form handling and API integration logic.
-src/index.js: Entry point for the React application.
-
-Future Improvements:
-Add validation for form fields (e.g., required fields, valid email format).
-Enhance UI/UX with better styling and feedback indicators.
-Implement success/error modals for better user experience.
-Extend functionality to customize Razorpay payment link parameters.
-Make this Responsive
-
-
-
-
-
-
+The L4G Payment Link Generator is a dynamic web application that leverages API integration to create seamless and efficient payment link generation. Users can input their name, email, and phone number into the system. Upon submission, the application uses a POST request to generate a payment link via an external API. This link is then delivered to the user's email address and phone number through SMS.
+The project highlights include:
+API Integration: Efficient handling of GET and POST requests for real-time link generation and delivery.
+User Interface: A simple, user-friendly web form to collect user details.
+Error Handling: Robust error display for failed requests and clear success messages for successful operations.
+Technology Stack: Built using ReactJS and Axios for API communication.
+This project demonstrates the practical use of APIs in creating a functional, user-centric application with real-world payment solutions.
